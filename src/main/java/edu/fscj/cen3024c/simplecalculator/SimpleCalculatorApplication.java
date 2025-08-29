@@ -3,10 +3,15 @@
 // 1/9/2024
 // Template for calculator application
 
+// Lauren Knotts
+// 08/29/2025
+// Added static import and fixed subtract method.
+
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import static edu.fscj.cen3024c.simplecalculator.SimpleCalculator.*;
 
 @SpringBootApplication
 public class SimpleCalculatorApplication {
@@ -29,6 +34,6 @@ public class SimpleCalculatorApplication {
 
         // Test the subtract function
         result = subtract(number1, number2);
-        System.out.println("Add result is: " + result);
+        System.out.println("Subtract result is: " + result);
     }
 }
